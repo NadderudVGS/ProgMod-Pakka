@@ -31,7 +31,7 @@ def num_int_rect(funksjon, start, slutt, antall):
     bredde = ( slutt - start ) / antall
     A = 0
     for i in range(antall):
-        A += areal_rect( f(start + bredde * i ), bredde)
+        A += areal_rect( funksjon(start + bredde * i ), bredde)
     
     return A
 
@@ -41,12 +41,13 @@ def num_int_trap(funksjon, start, slutt, antall):
         bruke trapeser. ( Numerisk 
         Integrasjon med trapeser ) 
     '''
-    A = 0
+
     bredde = ( slutt - start ) / antall
 
-    for i in range(antall):
-        A += areal_trapes( f( start + bredde * i ),        
-                           f( start + bredde * (i+1) ),    
+    A = 0
+    for i in range(0, antall):
+        A += areal_trapes( funksjon( start + bredde * i ),        
+                           funksjon( start + bredde * (i+1) ),    
                            bredde )
 
     return A
