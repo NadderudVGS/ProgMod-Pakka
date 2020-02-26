@@ -63,11 +63,23 @@ Estimerer arealet under en graf i et bestemt området. Fra y = 0
  
  
   ## Newtons symmetriske kvotient
-  Kommer snart...
+   Metoden finner stigningstallet til til en funksjon i et punkt. Bruker bruker to ulike estimater av av stigningstallet for å finne et mere nøyaktig estimat
+ 
+ `new_sym_kvot( funksjon, x_verdi, h=1e-8 )`
+ 
+ - `funksjon` - f(x), funksjonen som du vil finne stigningstallet til. Må returnere funksjonsutrykket.
+ - `x_verdi` - f'(x_verdi), hvor du vil finne stigninstallet
+ - `h` - En estimering av delta-x fra definisjonen.
  
  
   ## Newtons metode
-  kommer snart...
+   Metoden et nullpunkt i en graf ved bruk av tangenter. Returnerer 
+ 
+ `new_sym_kvot( funksjon, x_verdi, h=1e-8 )`
+ 
+ - `funksjon` - f(x), funksjonen som du vil finne stigningstallet til. Må returnere funksjonsutrykket.
+ - `x_verdi` - f'(x_verdi), hvor du vil finne stigninstallet
+ - `h` - En estimering av delta-x fra definisjonen.
  
   ## Halverings metoden
   kommer snart...
