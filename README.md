@@ -69,7 +69,7 @@ Estimerer arealet under en graf i et bestemt området. Fra y = 0
  - `x_verdi` - f'(x_verdi), hvor du vil finne stigninstallet
  - `h` - En estimering av delta-x fra definisjonen.
  
-`return` - x-verdi til et stigningstallet
+`return` - stigningstallet til x-verdi
  
  
   ## Newtons symmetriske kvotient
@@ -81,7 +81,7 @@ Estimerer arealet under en graf i et bestemt området. Fra y = 0
  - `x_verdi` - f'(x_verdi), hvor du vil finne stigninstallet
  - `h` - En estimering av delta-x fra definisjonen.
  
-`return` - x-verdi til et stigningstallet eller _None_
+`return` - stigningstallet til x-verdi eller _None_
  
   ## Newtons metode
    Metoden returnerer et nullpunkt i en graf ved bruk av tangenter.  
