@@ -43,7 +43,8 @@ Estimerer arealet under en graf i et bestemt området. Fra y = 0
  - `start` -  fra denne x-verdien 
  - `slutt` - til denne x-verdi 
  - `antall` - hvor mange rektangler som blir brukt. 
-  `return` - Arealet i definisjonsområdet 
+ 
+ `return` - Arealet i definisjonsområdet 
   
  
   ### Numerisk integrasjon med trapeser
@@ -55,7 +56,8 @@ Estimerer arealet under en graf i et bestemt området. Fra y = 0
  - `start` -  fra denne x-verdien 
  - `slutt` - til denne x-verdi 
  - `antall` - hvor mange trapeser som blir brukt. Flere trapeser -> mer nøyaktig
- `return` - Arealet i definisjonsområdet 
+ 
+`return` - Arealet i definisjonsområdet 
  
  
  ## Newtons kvotient
@@ -66,7 +68,8 @@ Estimerer arealet under en graf i et bestemt området. Fra y = 0
  - `funksjon` - f(x), funksjonen som du vil finne stigningstallet til. Må returnere funksjonsutrykket.
  - `x_verdi` - f'(x_verdi), hvor du vil finne stigninstallet
  - `h` - En estimering av delta-x fra definisjonen.
- `return` - x-verdi til et stigningstallet
+ 
+`return` - x-verdi til et stigningstallet
  
  
   ## Newtons symmetriske kvotient
@@ -77,7 +80,8 @@ Estimerer arealet under en graf i et bestemt området. Fra y = 0
  - `funksjon` - f(x), funksjonen som du vil finne stigningstallet til. Må returnere funksjonsutrykket.
  - `x_verdi` - f'(x_verdi), hvor du vil finne stigninstallet
  - `h` - En estimering av delta-x fra definisjonen.
- `return` - x-verdi til et stigningstallet eller _None_
+ 
+`return` - x-verdi til et stigningstallet eller _None_
  
   ## Newtons metode
    Metoden returnerer et nullpunkt i en graf ved bruk av tangenter.  
@@ -88,7 +92,8 @@ Estimerer arealet under en graf i et bestemt området. Fra y = 0
  - `start` - fra denne x-verdien starter søket
  - `tol` - feilmarginen fra det ekte nullpunktet
  - `maxLoop` - maks antall gangen funksjonen har mulighet kjøre.
- `return` - x-verdi til et nullpunkt
+ 
+`return` - x-verdi til et nullpunkt
  
   ## Halverings metoden
   Denne fungerer ikke. 
