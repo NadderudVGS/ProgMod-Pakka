@@ -5,6 +5,8 @@ Alle funksjoner du trenger for å fullføre faget: programmering og modellering 
 
  - [Enkel graf tegner](#enkel-graf-tegner)
  - [Numerisk integrasjon](#numerisk-integrasjon)
+   - [Rektangler](#numerisk-integrasjon-med-rektangler)
+   - [Trapeser](#numerisk-integrasjon-med-trapeser)
  - [Newton's kvotient](#newtons-kvotient)
  - [Newton's symmetriske kvotient](#newtons-symmetriske-kvotient)
  - [Newton's metode](#newtons-metode)
@@ -21,11 +23,13 @@ Supert! Nå burde alt være klart.
 ## Enkel graf tegner
 Plotter automatisk en graf i et området, etter funksjonen har blit kalt. 
 
-`plot_graf_simple( funksjon, start, slutt )`
+`plot_graf_simple( funksjon, start, slutt, x_label="x", y_label="y" )`
 
  - `funksjon` - f(x), funksjonen som du vil plotte. Må returnere funksjonsutrykket.
  - `start` - fra denne x-verdien 
  - `slutt` - til denne x-verdi 
+ - `x_label` - navnet på x-aksen
+ - `y_label` - navnet på y-aksen
   
  ## Numerisk integrasjon
 Estimerer arealet under en graf i et bestemt området. Fra y = 0
@@ -75,7 +79,7 @@ Estimerer arealet under en graf i et bestemt området. Fra y = 0
   ## Newtons metode
    Metoden et nullpunkt i en graf ved bruk av tangenter. Returnerer 
  
- `new_sym_kvot( funksjon, x_verdi, h=1e-8 )`
+ `new_metode( funksjon, x_verdi, tol=1e-10, maxLoop=1000 )`
  
  - `funksjon` - f(x), funksjonen som du vil finne stigningstallet til. Må returnere funksjonsutrykket.
  - `start` - fra denne x-verdien starter søket
