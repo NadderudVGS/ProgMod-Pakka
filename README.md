@@ -6,9 +6,9 @@ Alle funksjoner du trenger for å fullføre faget: programmering og modellering 
  - [Enkel graf tegner](#enkel-graf-tegner)
  - [Numerisk integrasjon](#numerisk-integrasjon)
  - [Newton's kvotient](#newtons-kvotient)
- - Newton's symmetriske kvotient
- - Newton's metode
- - Halverings metoden
+ - [Newton's symmetriske kvotient](#newtons-symmetriske-kvotient)
+ - [Newton's metode](#newtons-metode)
+ - [Halverings metoden](#halverings-metoden)
  
 
 ## Hvordan bruke pakken
@@ -62,9 +62,14 @@ Estimerer arealet under en graf i et bestemt området. Fra y = 0
  - `h` - En estimering av delta-x fra definisjonen.
  
  
-  ## Newton's symmetriske kvotient
-  Kommer snart....
+  ## Newtons symmetriske kvotient
+  Kommer snart...
  
  
+  ## Newtons metode
+  kommer snart...
+ 
+  ## Halverings metoden
+  kommer snart...
  
   
