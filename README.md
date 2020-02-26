@@ -78,10 +78,13 @@ Estimerer arealet under en graf i et bestemt området. Fra y = 0
  `new_sym_kvot( funksjon, x_verdi, h=1e-8 )`
  
  - `funksjon` - f(x), funksjonen som du vil finne stigningstallet til. Må returnere funksjonsutrykket.
- - `x_verdi` - f'(x_verdi), hvor du vil finne stigninstallet
- - `h` - En estimering av delta-x fra definisjonen.
+ - `start` - fra denne x-verdien starter søket
+ - `tol` - feilmarginen fra det ekte nullpunktet
+ - `maxLoop` - maks antall gangen funksjonen har mulighet kjøre.
  
   ## Halverings metoden
-  kommer snart...
+  Denne fungerer ikke. 
+  
+  Kommer snart...
  
   
