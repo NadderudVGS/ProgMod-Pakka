@@ -1,18 +1,20 @@
 from pylab import *
 
-def plot_graf_simple(f, start, slutt):
+def plot_graf_simple(f, start, slutt, x_label="x", y_label="y", show_now=True):
     ''' 
         Lager enkel graf av funksjonen
         din. Passer fint for alle type grafer 
     '''
 
-    x = linspace(start, slutt, 1000)
+    x = linspace(start, slutt, 1001)
     y = f(x)
 
-    xlabel("x")
-    ylabel("y")
+    xlabel(x_label)
+    ylabel(y_label)
 
     plot(x, y)
+    if show_now:
+        show()
 
 def areal_rect(høyde, bredde):
     ''' Returnerer arealet til et rektangel   '''
@@ -79,13 +81,16 @@ def new_metode(funksjon, start, tol=1e-10, maxLoop=1000):
     c = 1
     a = start
     i = 0
-    while abs(funksjon(c)) >= tol and i <= maxLoop:
-        c = a - funksjon( a ) / new_sym_kvot( funksjon, a )
-        a = c
-        i += 1
-
+    while abs(funksjon(c)) >= tol or i <= maxLoop:
+        try:
+            c = a - funksjon( a ) / new_sym_kvot( funksjon, a )
+            a = c
+            i += 1
+        except:
+            return None
     return c
 
+# Under construction... Virker ikke!      
 def halv_metode(funksjon, start, slutt, tol=1e-10, maxLoop=1000):
     ''' 
         Returnerer et nullpunkt i en graf
