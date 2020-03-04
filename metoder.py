@@ -87,7 +87,7 @@ def new_metode(funksjon, start, tol=1e-10, maxLoop=1000):
             a = c
             i += 1
         except:
-            return None
+            return c
     return c
 
 # Under construction... Virker ikke!      
