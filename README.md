@@ -14,9 +14,9 @@ Alle funksjoner du trenger for å fullføre faget: programmering og modellering 
  
 
 ## Hvordan bruke pakken
-Last ned filen `metoder.py` og plaser den i samme mappe som programmet ditt. Deretter importer pakken med å skrive i hovedprogrammet; 
+Last ned filen `progmod.py` og plaser den i samme mappe som programmet ditt. Deretter importer pakken med å skrive i hovedprogrammet; 
 
-`from metoder import *`
+`from progmod import *`
 
 Supert! Nå burde alt være klart.
 
@@ -96,8 +96,6 @@ Estimerer arealet under en graf i et bestemt området. Fra y = 0
 `return` - x-verdi til et nullpunkt
  
   ## Halverings metoden
-  Denne fungerer ikke. 
   
-  Kommer snart...
  
   
