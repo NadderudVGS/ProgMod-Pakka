@@ -14,11 +14,11 @@ Alle funksjoner du trenger for å fullføre faget: programmering og modellering 
  
 
 ## Hvordan bruke pakken
-Last ned filen `progmod.py` og plaser den i samme mappe som programmet ditt. Deretter importer pakken med å skrive i hovedprogrammet; 
+Last ned mappen `progmod` og plaser den i samme mappe som programmet ditt. Deretter importer pakken med å skrive i hovedprogrammet; 
 
 `from progmod import *`
 
-Supert! Nå burde alt være klart.
+Supert! Nå burde alt være klart. Nå kan du bruke alle funksjonene
 
 ## Enkel graf tegner
 Plotter automatisk en graf i et området, etter funksjonen har blit kalt. 
