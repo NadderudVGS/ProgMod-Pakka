@@ -1,3 +1,3 @@
-from progmod.integrerte.rektangel import rektangel
-from progmod.integrerte.trapes import trapes
-from progmod.integrerte.array import array
+from progmod.Integrerte.rektangel import rektangel
+from progmod.Integrerte.trapes import trapes
+from progmod.Integrerte.array import array
